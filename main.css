@@ -1,0 +1,44 @@
+/* Estilos para la barra de navegación */
+#navBar {
+    background-color:rgb(36,162,184)
+}
+
+/* Estilos para la imagen del logo */
+#imagenNav {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+#tablaSeries {
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tablaSeries th, #tablaSeries td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#tablaSeries th {
+    background-color: #3B6E8F;
+    color: white;
+}
+
+#tablaSeries tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#promedioTemporadas {
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+#actualizar {
+    margin-top: 20px;
+}
